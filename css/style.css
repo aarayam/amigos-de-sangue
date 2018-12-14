@@ -2,6 +2,10 @@ body {
     background: #d3d3d3;
 }
 
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
@@ -48,10 +52,6 @@ header.masthead {
     }
   }
 
-  .esp-section {
-    padding-bottom: 80px;
-    padding-top: 80px;
-  }
   
   @media (max-width: 992px) {
     .esp-section {
@@ -59,17 +59,34 @@ header.masthead {
       padding-bottom: 40px;
     }
   }
+
+  .nav-title {
+    color: #600404;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+  }
   
   #requisitos {
     background-color: #600404 !important;
     display: inline-block;
     height: 100%;
     width: 100%;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  #etapas {
+    padding-top: 80px; 
   }
 
   #etapas img {
     width: 30%;
   } 
+
+  #etapas p {
+    font-family: 'Raleway', sans-serif;
+  }
 
   #hemocentro {
     background-color: #600404 !important;
@@ -78,12 +95,16 @@ header.masthead {
     width: 100%;
   }
 
-  #parceiros .title h2 {
-    color: #fff;
-  }
+
 
   #footer {
     background-color: #1b1b1b !important;
-    padding-bottom: 15px;
+    color: #fff;
     font-family: 'Lato', sans-serif;
+
+ 
+  } 
+  .p-footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
   }
