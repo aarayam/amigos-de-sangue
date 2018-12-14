@@ -60,7 +60,24 @@ header.masthead {
     }
   }
   
+  #requisitos {
+    background-color: #600404 !important;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
 
   #etapas img {
-    width: 35%;
+    width: 30%;
   } 
+
+  #hemocentro {
+    background-color: #600404 !important;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+
+  #parceiros .title h2 {
+    color: #fff;
+  }
