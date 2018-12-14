@@ -81,3 +81,9 @@ header.masthead {
   #parceiros .title h2 {
     color: #fff;
   }
+
+  #footer {
+    background-color: #1b1b1b !important;
+    padding-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+  }
